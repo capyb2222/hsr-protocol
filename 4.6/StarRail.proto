@@ -20739,7 +20739,7 @@ message MarkPresetLineupCsReq {
 }
 
 // CmdId: - | MergeFrom: 0x1e344530 | WriteTo: 0x1e344250
-message SetTeamFavourite {
+message MarkPresetLineupScRsp {
 	uint32 index = 7;
 	bool _is_favourite = 9;
 	uint32 retcode = 13;
